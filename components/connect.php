@@ -1,8 +1,8 @@
 <?php
 
-    $db_name = "mysql:host=localhost;dbname=estadia_db";
-    $db_user_name = "root";
-    $db_user_pass = "KAiL(ctFGZdnzk/J";
+    $db_name = //Acá va el nombre de tu BD.
+    $db_user_name = //Acá va el nombre de usuario de la BD.
+    $db_user_pass = //Acá va la contraseña de tu BD, si no tienes contraseña, deja vacio el espacio.
     
 
     $conn = new PDO($db_name, $db_user_name, $db_user_pass);
